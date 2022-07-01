@@ -12,10 +12,7 @@
 <p>Pa še nekaj</p>
 <?php
   
-    $servername = "localhost";
-    $username = "maxim";
-    $password = "123456";
-    $dbname = "alma_mater_db";
+    include "prijava_na_PB.php";
    
     $email = $_POST["email"];
     $ime = $_POST["ime"];
